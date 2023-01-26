@@ -1,0 +1,36 @@
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #0437F2;
+    
+    font-family: 'Exo 2', sans-serif;
+    padding: 1em;
+  }
+  
+  nav a{
+  padding:3px;
+  text-decoration: none;
+  color: #222;
+  text-transform: uppercase;
+  border: 1px solid #222;
+  transition: 400ms all;
+  }
+  nav a:hover{
+  background-color: black;
+  color: whitesmoke;
+  }
+  
+  @media screen and (min-width: 400px) {
+    html{
+      width: 400px;
+    }
+  }
+  
+  .main-section{
+    padding: 10px;
+    color:black;
+    display: flex;
+    justify-content: flex-end;
+  }
