@@ -155,17 +155,17 @@
   /* Cycling */
   #cycle:after {
     animation-name:cycle;
-    animation-duration: 4s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     content: "";
   }
 
   @keyframes cycle {
     0% {
-      content: "programmer";
+      content: "gamer";
     }
     20% {
-      content: "gamer";
+      content: "programmer";
     }
     40% {
       content: "UTSA Alumi";
