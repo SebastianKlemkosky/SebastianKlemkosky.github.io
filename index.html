@@ -1,68 +1,64 @@
 <!DOCTYPE html>
-  <html lang='en'>
+  
+<html lang='en'>
     <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product Landing Page</title>
+    <title>Personal Portfolio Webpage</title>
     <link rel="stylesheet" href="styles.css" />
     </head>
+
+    <!-- START NAV -->
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a href="#projects">Work</a>
+        </li>
+        <li>
+          <a href="#contact-section">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- END NAV -->
     <body>
       <main>
 
-        <section>
-          <header id='header'>
-            <img id='header-img' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvCquZidEWmwRq652eA6xa8FieltCArZsXk6F0Mr-UVWbAhxUWt3fLib3cbVJ5H3RUAE&usqp=CAU'/>
-            
-            <nav id="nav-bar">
-          <header>Factions</header>
-            <ul>
-              <li>
-                <a class="nav-link"        href="#Imperium">Imperium of Man</a>
-              </li>
-              <li>
-                <a class="nav-link"        href="#Chaos">Chaos</a></li>
-              <li>
-                <a class="nav-link"        href="#Xenos">Xenos</a>
-              </li>
-              <li>
-                <a class="nav-link"        href="#Form">Form</a>
-              </li>
-              </ul>
-            </nav>
-          </header>
+        <!-- START WELCOME SECTION -->
+        <section id='welcome-section' class='welcome-section'>
+          <h1>Hey I am Sebastian</h1>
+          <p>a programmer</p>
         </section>
+        <!-- END WELCOME SECTION -->
 
-        <section class='main-section' id='Imperium'>
-          <header>Imperium of Man</header>
-          <p>The Imperium of Man, also called simply the Imperium, is a galaxy-spanning, interstellar Human empire, the ultimate authority for the majority of the Human species in the Milky Way Galaxy in the 41st Millennium A.D. It is ruled by the living god who is known as the Emperor of Mankind.</p>
-          <iframe  id='video' width="560" height="315" src="https://www.youtube.com/embed/cvztagq4Qjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
-          <p></p>
+        <!-- START PROJECT SECTION -->
+        <section id='projects' class='projects-section'>
+          <h2 class="projects-section-header">These are some of my projects</h2>
+          <div class='projects-grid'>
+           
+          </div>
         </section>
+        <!-- END PROJECT SECTION -->
 
-        <section class='main-section' id='Chaos'>
-          <header>Chaos</header>
-          <p>Chaos, also known to its servants as the Primordial Truth or the Primordial Annihilator, and to the Imperium of Man as the Archenemy, is a metaphysical, psychic force embodied by the malevolent entities comprised of emotional energy that exist in the Immaterium.</p>
-          <p></p>
+        <!-- START CONTACT SECTION -->
+        <section id='contact-section' class='contact-section'>
+         <div class="contact-section-header">
+          <h2>Let's work together...</h2>
+        </div> 
+        <div class="contact-links">
+          <a
+      id="profile-link"
+      href="https://github.com/SebastianKlemkosky"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-github"></i> GitHub</a
+    >
+        </div>
         </section>
-
-        <section class='main-section' id='Xenos'>
-          <header>Xenos</header>
-          <p>Xenos (pronounced ZEE-nahs or zehn-AHS) is a High Gothic term used by the people and adepta of the Imperium of Man that means "stranger" and "alien." It is often used by the Adeptus Terra to signify enemy aliens or off-world, non-Human forces.</p>
-          <p></p>
-        </section>
-
-
-        <section class='main-section' id='Form'>
-          <form action="https://www.freecodecamp.com/email-submit" id="form">
-            <div class="info">
-              <label for="email">Email:</label>
-              <input type="email" name="email" id="email" placeholder="someone@gmail.com"/>
-              <input id='submit' type="submit">Send</input>
-            </div>
-          </form>
-        </section>
-
-        
+        <!-- END CONTACT SECTION -->
 
       </main>
     </body>
