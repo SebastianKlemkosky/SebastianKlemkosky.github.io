@@ -164,17 +164,20 @@
     0% {
       content: "programmer";
     }
-    25% {
+    20% {
       content: "gamer";
     }
-    50% {
+    40% {
       content: "UTSA Alumi";
     }
-    75% {
+    60% {
       content: "1800cr Warrior";
     }
+    80%{
+      content: "Game Developer";
+    }
     100% {
-      content: "midlane main";
+      content: "midlaner";
     }
   }
   
