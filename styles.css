@@ -151,6 +151,32 @@
     font-style: italic;
     color: var(--main-red);
   }
+
+  /* Cycling */
+  #cycle:after {
+    animation-name:cycle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    content: "";
+  }
+
+  @keyframes cycle {
+    0% {
+      content: "programmer";
+    }
+    25% {
+      content: "gamer";
+    }
+    50% {
+      content: "UTSA Alumi";
+    }
+    75% {
+      content: "1800cr Warrior";
+    }
+    100% {
+      content: "midlane main";
+    }
+  }
   
   /* Projects section */
   
