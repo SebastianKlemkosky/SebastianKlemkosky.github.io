@@ -182,24 +182,53 @@
   }
   
   /* About section */
-  .about-section {
-    padding: 10rem 2rem;
-    background: var(--main-brown);
-  }
+  .aboutme {
+    text-align: center;
+    background-color: #0f0c27;
+    color: white;
+}
 
-  .grid-container-element { 
-    display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    grid-gap: 20px; 
-    width: 100%; 
-  } 
+.aboutme-section {
+    display: flex;
+    margin-top: 50px;
+    text-align: left;
+}
 
-  .grid-child-element { 
-    margin: 10px; 
-    border: 1px solid red; 
-  }
+.my-img {
+    border-radius: 20px;
+}
 
+.image-section {
+    margin-left: 50px;
+}
+
+.aboutme-text {
+    width: 50%;
+    margin-left: 20%;
+}
+
+.icons-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.aboutme-heading {
+    font-size: 2.5rem;
+}
   
+.download-cv {
+  color: white;
+  text-decoration: none;
+  background-color: #033a80;
+  padding: 12px 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+
   /* Project Section */
 
   .projects-section {
@@ -220,7 +249,7 @@
     }
   }
   
-  /* "Automagic" image grid using no media queries */
+  /* image grid using no media queries */
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -365,3 +394,45 @@
       text-align: center;
     }
   }
+
+  .contact-form {
+    background-color: #0f0c27;
+    color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form input, textarea {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #150b3a;
+    text-decoration: none;
+    border: 0;
+    
+}
+
+.form input, textarea {
+    padding: 10px;
+    color: white;
+}
+
+.contact-me-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.submit {
+  display: block;
+  margin: 40px auto;
+  width: 40%;
+  padding: 15px;
+  font-size: 23px;
+  background: #d0d0d5;
+  border: 3px solid #3b3b4f;
+}
