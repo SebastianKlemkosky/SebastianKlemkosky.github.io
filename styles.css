@@ -232,7 +232,7 @@
 .download-cv {
   color: white;
   text-decoration: none;
-  background-color: #033a80;
+  background-color: var(--main-green);
   padding: 12px 15px;
   border-radius: 10px;
   margin-top: 20px;
