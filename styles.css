@@ -155,29 +155,20 @@
   /* Cycling */
   #cycle:after {
     animation-name:cycle;
-    animation-duration: 10s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     content: "";
   }
 
   @keyframes cycle {
     0% {
-      content: "gamer";
-    }
-    20% {
       content: "programmer";
     }
-    40% {
+    50% {
       content: "UTSA Alumi";
     }
-    60% {
-      content: "1800cr Warrior";
-    }
-    80%{
-      content: "Game Developer";
-    }
-    100% {
-      content: "midlaner";
+    100%{
+      content: "game developer";
     }
   }
   
@@ -193,14 +184,13 @@
 .aboutme-section {
     display: flex;
     margin-top: 50px;
-    text-align: left;
+    text-align: center;
     background-color: #000;
     background-image: linear-gradient(62deg, var(--main-gray) 0%, #181719 100%);
 }
 
 .aboutme-heading {
   text-align: center;
-  font-size: 5rem;
 }
 .my-img {
     border-radius: 20px;
@@ -216,9 +206,8 @@
 }
 
 .aboutme-text {
-    width: 50%;
-    margin-left: 20%;
-    margin-right: 5%;
+  text-align: left;
+  padding: 5%;
 }
 
 .icons-div {
